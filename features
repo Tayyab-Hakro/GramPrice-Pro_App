@@ -1,0 +1,16 @@
+Run the app: When you open the HTML file in a browser, you can add tasks to the list. Each task has "Complete" and "Delete" buttons.
+Complete button: Marks the task as completed.
+Delete button: Removes the task from the list.
+Two Features to Implement Yourself:
+Feature 1: Add a "Priority Level" for Each Task
+
+Add a dropdown or input box that allows the user to set a priority (e.g., Low, Medium, High) for each task when it's added.
+Display the priority next to the task in the list.
+You can also style the tasks differently based on their priority (e.g., red for high priority, green for low).
+Feature 2: Add Task Filtering
+
+Add a dropdown or buttons that allow users to filter tasks by status:
+Show all tasks.
+Show only completed tasks.
+Show only incomplete tasks.
+This will help the user easily view tasks based on their completion status.

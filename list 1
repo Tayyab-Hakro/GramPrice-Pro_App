@@ -1,0 +1,89 @@
+1. FizzBuzz Problem:
+Write a function that prints numbers from 1 to 100. For multiples of 3, print "Fizz" instead of the number. For multiples of 5, print "Buzz". For numbers which are multiples of both 3 and 5, print "FizzBuzz".
+
+javascript
+Copy code
+function fizzBuzz() {
+    // Your code here
+}
+2. Find the Missing Number in an Array:
+You are given an array containing n - 1 numbers, where each number is between 1 and n (inclusive). There are no duplicates in the array. Find the missing number.
+
+javascript
+Copy code
+function findMissingNumber(arr, n) {
+    // Your code here
+}
+// Example: findMissingNumber([1, 2, 4, 6, 3, 7, 8], 8) ➞ 5
+3. Anagram Check:
+Write a function that takes two strings and returns true if they are anagrams of each other, and false otherwise.
+
+javascript
+Copy code
+function isAnagram(str1, str2) {
+    // Your code here
+}
+// Example: isAnagram("listen", "silent") ➞ true
+4. Flatten a Nested Array:
+Write a function that takes an array of arrays and flattens it into a single array.
+
+javascript
+Copy code
+function flattenArray(arr) {
+    // Your code here
+}
+// Example: flattenArray([[1, 2, 3], [4, 5], [6]]) ➞ [1, 2, 3, 4, 5, 6]
+5. Count the Occurrences of Each Character in a String:
+Write a function that takes a string and returns an object where the keys are the characters, and the values are the number of times they appear in the string.
+
+javascript
+Copy code
+function countOccurrences(str) {
+    // Your code here
+}
+// Example: countOccurrences("hello") ➞ {h: 1, e: 1, l: 2, o: 1}
+6. Implement a Simple Calculator:
+Create a function that takes two numbers and an operator (+, -, *, /) and returns the result of the calculation.
+
+javascript
+Copy code
+function calculator(num1, num2, operator) {
+    // Your code here
+}
+// Example: calculator(5, 2, '+') ➞ 7
+7. Find the Largest Difference Between Any Two Elements in an Array:
+Write a function that finds the largest difference between any two numbers in a given array.
+
+javascript
+Copy code
+function largestDifference(arr) {
+    // Your code here
+}
+// Example: largestDifference([1, 9, 2, 5, 7, 3]) ➞ 8
+8. Group Elements by Frequency:
+Given an array of numbers, group the elements by their frequency and return a sorted array of groups.
+
+javascript
+Copy code
+function groupByFrequency(arr) {
+    // Your code here
+}
+// Example: groupByFrequency([3, 3, 2, 1, 2, 2, 4]) ➞ [[1, 4], [3, 3], [2, 2, 2]]
+9. Find the First Non-Repeating Character in a String:
+Write a function that finds the first non-repeating character in a given string and returns it. If all characters repeat, return an empty string.
+
+javascript
+Copy code
+function firstNonRepeatingChar(str) {
+    // Your code here
+}
+// Example: firstNonRepeatingChar("swiss") ➞ "w"
+10. Rotate an Array to the Right by K Steps:
+Write a function that takes an array and a number k and rotates the array to the right by k steps.
+
+javascript
+Copy code
+function rotateArray(arr, k) {
+    // Your code here
+}
+// Example: rotateArray([1, 2, ])

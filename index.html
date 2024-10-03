@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Total Price Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="main">
+        <h1>GramPrice Pro</h1>
+        <p>Calculate grams  based on prices on Kilo</p>
+        <div>
+            <label for="kiloPrice">Kilo Price</label>
+            <input type="number" id="kiloPrice" placeholder="Enter Kilo Price" />
+        </div>
+        <div>
+            <label for="quantity">Price  quantity</label>
+            <input type="number" id="quantity" placeholder="Enter Quantity" />
+        </div>
+        <button onclick="HandlePrice()">Submit</button>
+<p id="TotalGrams"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

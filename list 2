@@ -1,0 +1,122 @@
+. Form Validation
+Create a form with fields for name, email, and password. Write JavaScript to validate the form before submission:
+
+The name field should not be empty.
+The email field should contain a valid email address.
+The password should be at least 8 characters long.
+2. To-Do List Application
+Build a simple to-do list application:
+
+Users should be able to add tasks.
+Users should be able to mark tasks as completed.
+Users should be able to delete tasks.
+Store the tasks in local storage so that they persist when the page is refreshed.
+3. Weather App
+Create a weather application using a public API (e.g., OpenWeatherMap):
+
+Allow the user to input a city name.
+Fetch and display the current weather for that city.
+Display additional information such as temperature, humidity, and weather conditions.
+4. Shopping Cart
+Develop a simple shopping cart for an e-commerce site:
+
+Users should be able to add items to the cart.
+Display the total price of items in the cart.
+Allow users to remove items from the cart.
+Store the cart information in local storage.
+5. Quiz Application
+Create a quiz application:
+
+Display a series of questions with multiple-choice answers.
+Allow the user to select an answer for each question.
+Calculate and display the user's score at the end of the quiz.
+6. Image Gallery
+Build an image gallery:
+
+Display a grid of thumbnail images.
+When a user clicks on a thumbnail, display the full-size image in a modal or lightbox.
+Allow navigation to the next and previous images in the modal view.
+7. Real-Time Chat Application
+Develop a basic real-time chat application using WebSockets:
+
+Allow users to send and receive messages in real-time.
+Display messages in a chat window.
+Include functionality to display when a user is typing.
+8. Expense Tracker
+Create an expense tracker:
+
+Allow users to input expense details (amount, description, date).
+Display a list of expenses.
+Calculate and display the total expenses.
+Store the expense data in local storage.
+9. Countdown Timer
+Build a countdown timer:
+
+Allow the user to set a time in minutes and seconds.
+Start the countdown when a button is clicked.
+Display the remaining time.
+Alert the user when the time is up.
+10. Pagination
+Create a paginated list of items:
+
+Fetch a large list of items from an API.
+Display the items in pages, with next and previous buttons to navigate between pages.
+Allow the user to select how many items to display per page.
+11. User Authentication
+Implement a simple user authentication system:
+
+Create a registration form to collect username and password.
+Store the user credentials securely (consider using hashing for passwords).
+Create a login form that verifies the user's credentials.
+Display a welcome message upon successful login.
+12. Autocomplete Search
+Develop an autocomplete search feature:
+
+Allow the user to input text in a search box.
+Fetch and display a list of suggestions based on the input.
+Update the suggestions list as the user types.
+13. Drag and Drop
+Implement drag-and-drop functionality:
+
+Create a list of draggable items.
+Allow users to reorder the items by dragging and dropping them.
+Update the order of items in the underlying data structure.
+14. Dynamic Table
+Create a dynamic table:
+
+Allow users to add and remove rows.
+Allow users to edit the content of the cells.
+Validate the input data before updating the table.
+15. File Upload
+Build a file upload feature:
+
+Allow users to select a file from their device.
+Display the selected file name and size.
+Implement a function to upload the file to a server (simulate server upload if needed).
+16. Currency Converter
+Create a currency converter application using a public API:
+
+Allow users to select currencies and input an amount.
+Fetch the current exchange rates.
+Display the converted amount.
+17. Stopwatch
+Develop a stopwatch:
+
+Include start, stop, and reset buttons.
+Display the elapsed time in hours, minutes, and seconds.
+18. Survey Form
+Build a survey form:
+
+Include various input types (text, radio buttons, checkboxes, dropdowns).
+Collect and display the survey results.
+19. Responsive Navigation Bar
+Create a responsive navigation bar:
+
+Implement a hamburger menu for mobile views.
+Allow the menu to expand and collapse on smaller screens.
+20. Interactive Map
+Integrate an interactive map using a mapping library (e.g., Leaflet or Google Maps API):
+
+Display a map centered on a default location.
+Allow users to search for a location and update the map.
+Add markers to the map based on user input.
